@@ -1,3 +1,5 @@
 20230623	05:21:34	4571a6bc-13f9-4a2e-bc7f-c9db4a0c62cf	Error: Not Allowed by CORS!
 20230623	05:53:25	84b1b924-c6d8-4dd7-809f-9a168fcf36b4	ReferenceError: sendFile is not defined
 20230623	21:17:17	14449ee1-61c2-4f00-9e65-6000f00bbcaa	Error: ENOENT: no such file or directory, stat 'C:\Users\user\Desktop\NodeJS\views\new-page.html'
+20230625	04:22:50	3f5afb5f-ee16-46ed-824e-3ce4136674b8	ReferenceError: red is not defined
+20230625	20:42:10	99853759-bd0b-4daf-8db6-247d998dd3d9	SyntaxError: Unexpected token a in JSON at position 0
