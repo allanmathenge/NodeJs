@@ -30,7 +30,7 @@ const updateEmployee = (req, res) => {
    const filteredArray = data.employees.filter(emp => emp.id !== parseInt(req.body.id));
    const unSortedArray = [...filteredArray, employee];
    data.setEmployees(unSortedArray.sort((a, b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0));
-   res.json(data.employees)
+   res.JSON(data.employees)
 }
 
 const deleteEmployee = (req, res) => {

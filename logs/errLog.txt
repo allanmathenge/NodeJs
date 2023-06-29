@@ -3,3 +3,11 @@
 20230623	21:17:17	14449ee1-61c2-4f00-9e65-6000f00bbcaa	Error: ENOENT: no such file or directory, stat 'C:\Users\user\Desktop\NodeJS\views\new-page.html'
 20230625	04:22:50	3f5afb5f-ee16-46ed-824e-3ce4136674b8	ReferenceError: red is not defined
 20230625	20:42:10	99853759-bd0b-4daf-8db6-247d998dd3d9	SyntaxError: Unexpected token a in JSON at position 0
+20230627	05:32:17	640615e4-1318-4b53-86de-140218800376	SyntaxError: Unexpected string in JSON at position 17
+20230627	05:33:07	365a56fd-c54c-4e72-8e17-dc4a163f0a5c	SyntaxError: Unexpected string in JSON at position 17
+20230628	07:00:36	f70532b3-6257-4364-9760-1f3379faa6fb	SyntaxError: Unexpected token , in JSON at position 35
+20230628	07:01:39	5d0e0e75-a63c-4fc7-a738-3f68e0c82607	SyntaxError: Unexpected token , in JSON at position 35
+20230628	09:07:32	54ac7aec-0d10-4292-9460-21cdd0e482f9	SyntaxError: Unexpected token , in JSON at position 35
+20230628	09:18:13	8538baf4-45e7-40f7-8ec6-746704848f34	SyntaxError: Unexpected token , in JSON at position 35
+20230629	17:19:44	b74b1fd0-0d02-4e7f-8697-2494366ecb41	SyntaxError: Unexpected token { in JSON at position 37
+20230629	17:20:19	27f27e05-6ffc-4667-87bf-8d20eb0aa9c9	SyntaxError: Unexpected token { in JSON at position 37
