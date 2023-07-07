@@ -20,3 +20,10 @@
 20230630	17:00:16	3fe04021-0369-4380-993d-d199eba4fbf3	SyntaxError: Unexpected token e in JSON at position 0
 20230630	17:00:57	3f3ea276-5eaf-46af-9fc1-60a4c39ab76d	SyntaxError: Unexpected token e in JSON at position 0
 20230630	17:00:59	53bee2cd-bf18-4bb3-a7f7-2633a73552ca	SyntaxError: Unexpected token e in JSON at position 0
+20230705	05:28:17	d0b0c02c-cb98-406e-906e-59ef3c84c211	TypeError: Cannot read properties of undefined (reading 'username')
+20230705	05:34:54	f9f82a32-9fc7-4125-bedf-ff35588be050	TypeError: Cannot read properties of undefined (reading 'username')
+20230705	05:34:56	dfef39cc-e598-4bb2-ab8a-83ea865a119b	TypeError: Cannot read properties of undefined (reading 'username')
+20230705	05:34:57	20d5dd03-d4d7-42f5-95b9-498853667854	TypeError: Cannot read properties of undefined (reading 'username')
+20230705	05:34:58	bcfac889-a1e8-4bd4-9bf0-5c3602027b59	TypeError: Cannot read properties of undefined (reading 'username')
+20230706	20:48:32	fe679112-d82c-41b9-821f-d67190b9207d	TypeError: Cannot read properties of undefined (reading 'username')
+20230706	20:50:35	87a27982-8720-4ae7-b4af-c7dfb9284291	TypeError: Cannot read properties of undefined (reading 'foundUser')
