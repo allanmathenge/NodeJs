@@ -1,19 +1,15 @@
-const usersDB = {
-    users: require('../model/users.json'),
-    setUsers: function (data) {this.users = data }
-}
-
+const User = require('../model/User');
 const jwt = require('jsonwebtoken');
 
-const handleRefreshtoken = (req, res) => {
+const handleRefreshtoken = async (req, res) => {
     const cookies = req.cookies;       
     if (!cookies?.jwt) return res.sendStatus(401); //unauthorized
     const refreshToken = cookies.jwt;
 
-    const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken);
+    const foundUser = await User.findOne({ refreshToken }).exec();
     if (!foundUser) return res.sendStatus(403); //Forbidden
     
-    //Evaluate jwt
+    //Evaluate or verify jwt
     jwt.verify(
         refreshToken,
         process.env.REFRESH_TOKEN_SECRET,
@@ -32,7 +28,7 @@ const handleRefreshtoken = (req, res) => {
             );
             res.json({ accessToken})
         }
-    );    
+    );
 }
 
 module.exports = { handleRefreshtoken }
